@@ -1,3 +1,209 @@
+# Authentication System
+
+A modern authentication system built using Laravel, React, and Tailwind CSS.  
+This project provides secure user authentication with a responsive and clean user interface.
+
+---
+
+## Live Demo
+
+🔗 [View Live Demo](https://your-demo-link.com)
+
+---
+
+## Features
+
+- User Registration
+- User Login
+- Secure Authentication
+- Logout Functionality
+- Protected Routes
+- Responsive Design
+- Modern UI with Tailwind CSS
+- REST API Integration
+- Form Validation
+
+---
+
+## Technologies Used
+
+### Backend
+- Laravel
+- PHP
+- MySQL
+
+### Frontend
+- React
+- Tailwind CSS
+- Axios
+- React Router
+
+---
+
+## Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/yourusername/auth-system.git
+```
+
+---
+
+## Backend Setup (Laravel)
+
+### 2. Open Backend Folder
+
+```bash
+cd auth-system
+```
+
+### 3. Install Laravel Dependencies
+
+```bash
+composer install
+```
+
+### 4. Create Environment File
+
+```bash
+cp .env.example .env
+```
+
+### 5. Configure Database
+
+Update `.env` file:
+
+```env
+DB_DATABASE=auth
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+### 6. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 7. Run Migrations
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 8. Start Laravel Server
+
+```bash
+php artisan serve
+```
+
+Backend runs on:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Frontend Setup (React)
+
+### 9. Open Frontend Folder
+
+```bash
+cd frontend
+```
+
+### 10. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 11. Start React Development Server
+
+```bash
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## API Authentication
+
+This project uses Laravel API authentication for:
+- Register
+- Login
+- Logout
+- Protected user routes
+
+---
+
+## Project Structure
+
+```text
+auth/
+│
+├── backend/
+├── app/
+├── routes/
+├── database/
+├── frontend/
+│   ├── src/
+│   ├── pages/
+│   │    ├──login.jsx
+│   │    ├──register.jsx
+│   │    └── ...
+│   ├── axiosClient/
+│   ├── ProtectedRoute/
+│   └── ...
+├── ....
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Login Page
+
+![Login]
+
+### Register Page
+
+![Signup]
+
+### Dashboard
+
+![Dashboard]
+
+---
+
+## Author
+
+AZIZI Mohamed
+
+GitHub: https://github.com/medo5000
+
+---
+
+## License
+
+This project is for educational purposes.
+---
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
