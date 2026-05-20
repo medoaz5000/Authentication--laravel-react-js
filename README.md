@@ -5,12 +5,6 @@ This project provides secure user authentication with a responsive and clean use
 
 ---
 
-## Live Demo
-
-🔗 [View Live Demo](https://your-demo-link.com)
-
----
-
 ## Features
 
 - User Registration
