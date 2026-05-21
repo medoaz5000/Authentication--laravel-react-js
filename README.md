@@ -174,15 +174,19 @@ auth/
 
 ### Login Page
 
-![Login]
+![Login](images/Login.png)
 
 ### Register Page
 
-![Signup]
+![Register](images/Signup.png)
 
-### Dashboard
+### Dashboard Admin
 
-![Dashboard]
+![Dashboard](images/Dashboard_Admin.png)
+
+### Dashboard User
+
+![Dashboard](images/Dashboard_User.png)
 
 ---
 
