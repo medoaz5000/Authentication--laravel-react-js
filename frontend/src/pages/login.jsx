@@ -56,7 +56,7 @@ export default function Login() {
             });
         });*/
 
-       
+        await csrf.get('/sanctum/csrf-cookie')  
         axiosClient.post("/api/login", form)
         .then(({ data }) =>{
             //console.log("LOGIN RESPONSE:", data); 

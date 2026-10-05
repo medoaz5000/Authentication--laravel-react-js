@@ -13,7 +13,8 @@ use App\Http\Requests\RegisterRequest;
 class AuthController extends Controller
 {
     public function login(LoginRequest $request){
-        /*$data = $request->validated();
+        /*
+        $data = $request->validated();
 
         if(!Auth::attempt($data)){
             return response([
@@ -26,11 +27,13 @@ class AuthController extends Controller
         return response()->json([
             'user' => $user,
             'token' => $token
-        ]);*/
+        ]);
+        */
 
         $data = $request->validated();
 
         if (!Auth::attempt($data)) {
+            $request->session()->regenerate();
             return response()->json([
                 'message' => 'email or password are invalid '
             ], 401);
