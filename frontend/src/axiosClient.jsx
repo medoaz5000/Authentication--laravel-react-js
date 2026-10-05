@@ -4,9 +4,10 @@ import axios, { Axios } from 'axios'
 const axiosClient = axios.create({
     //baseURL: `${import.meta.VITE_BACKEND_URL}/api`
     //baseURL: "http://127.0.0.1:8000",
-    baseURL: "https://react-laravel.wasmer.app",
+    //baseURL: "https://react-laravel.wasmer.app/api",
+    baseURL: import.meta.env.VITE_API_URL,
     withCredentials: true,
-    withXSRFToken:true,
+    
     headers: {
       "Content-Type": "application/json",
       "Accept": "application/json",
