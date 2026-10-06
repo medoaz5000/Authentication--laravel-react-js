@@ -98,7 +98,7 @@ export default function Login() {
                 <div>
                     <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">Email address</label>
                     <div className="mt-2">
-                    <input ref={emailRef} id="email" type="email" name="email" required autoComplete="email" className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                    <input ref={emailRef} id="email" type="email" name="email" required value="cuwasizes@mailinator.com" autoComplete="email" className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ export default function Login() {
                     </div>
                     </div>
                     <div className="mt-2 relative">
-                    <input ref={passwordRef} id="password" type={showPassword ? "text" : "password"} name="password" required autoComplete="current-password" className="block w-full rounded-md bg-white px-3 py-1.5 pr-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                    <input ref={passwordRef} id="password" type={showPassword ? "text" : "password"} name="password" required value="Pa$$w0rd!" autoComplete="current-password" className="block w-full rounded-md bg-white px-3 py-1.5 pr-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         <button
                             type="button"
                             onClick={() => setShowPassword(!showPassword)}
